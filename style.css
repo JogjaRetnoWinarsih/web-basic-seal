@@ -1,0 +1,27 @@
+h2{
+    font-size: 30px;
+    font-variant:inherit;
+    color:rgb(134, 0, 74)
+  }
+
+/* default (smartphone) */
+@media (min-width: 576px){
+    .foto > img {
+        width: 60%;
+    }
+}
+
+/* tablet */
+@media (min-width: 768px){
+    .foto > img {
+        width: 80%;
+    }
+}
+
+/* pc */
+@media (min-width: 992px){
+    .foto > img {
+        width: 60%;
+        text-align:justify;
+    }
+}
